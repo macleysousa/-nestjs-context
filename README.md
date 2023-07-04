@@ -11,7 +11,7 @@ First, let's create the context service that will be responsible for providing r
 // context.service.ts
 
 import { Injectable } from '@nestjs/common';
-import { RequestContext } from 'nestjs-context';
+import { RequestContext } from 'nestjs-easy-context';
 
 @Injectable()
 export class ContextService {
@@ -31,7 +31,7 @@ Now, let's create the `ContextModule` that will import and provide the context s
 // context.module.ts
 
 import { DynamicModule, Module } from '@nestjs/common';
-import { RequestContextModule } from 'nestjs-context';
+import { RequestContextModule } from 'nestjs-easy-context';
 
 import { ContextService } from './context.service';
 

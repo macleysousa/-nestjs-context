@@ -1,5 +1,5 @@
 {
-  "name": "@nestjs-context",
+  "name": "nestjs-easy-context",
   "version": "10.0.0",
   "description": "Helper library for accessing request from singleton services",
   "main": "dist/index.js",
