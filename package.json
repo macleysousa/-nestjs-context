@@ -43,5 +43,10 @@
     "type": "git",
     "url": "https://github.com/macleysousa/nestjs-context.git"
   },
+  "keywords": [
+    "nestjs",
+    "easy",
+    "context"
+  ],
   "dependencies": {}
 }
