@@ -1,5 +1,5 @@
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
-import { RequestContextMiddleware } from './request-context.middleware';
+import { RequestContextMiddleware } from './context.middleware';
 
 @Module({
   providers: [RequestContextMiddleware],
