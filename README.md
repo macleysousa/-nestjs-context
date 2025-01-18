@@ -2,6 +2,20 @@
 
 Workaround for getting Request information from a non request-scoped service in NestJs. Initially taken from this [gist](https://gist.github.com/bengry/924a9b93c25d8a98bffdfc0a847f0dbe), and then changed to use [AsyncLocalStorage](https://nodejs.org/api/async_context.html#async_context_new_asynclocalstorage)
 
+## Installing
+
+```shell
+npm i nestjs-easy-context
+```
+
+or
+
+```shell
+yarn add nestjs-easy-context
+```
+
+<br>
+
 # Usage 
 
 ### Step 1: Create the Context Service
